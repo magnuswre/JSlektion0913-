@@ -1,3 +1,7 @@
+// Välja flera varibler samtidigt och byta namn på alla. Välj och tryck F2
+
+
+
 // // let btn1 = document.getElementById("btn1");
 // // btn1.addEventListener("click", function(){
 // // console.log('Hej')
@@ -75,6 +79,9 @@ let person = {
 };
 person.hair = "blond";
 
+
+let person2 = ["magnus", "wretblad", 41, 85] // ...
+
 let text = " "; 
 for(let i = 0; i < person.length; i++) {
   text += person[i];
@@ -85,23 +92,10 @@ console.log("Förnamn: " + person.firstName + ", " + "Efternamn: " + person.last
 console.log(`Förnamn: ${person.firstName}, Efternamn: ${person.lastName}, Ålder: ${person.age}, Vikt: ${person.wheight}`);
 
 
-const tal = { first: 12 * 2,
-              second: 12 + 2 *4 
-}
+let text5 = 'text '
+text5 += text5
+text5 += text5
+text5 += text5 
 
-console.log(tal.first, tal.second)
-
-
-let tal1 = [12, 2];
-let tal2 = [15, 2, 4];
-let tal3 =  2; 
-
-console.log(tal1[0] * tal1[1]);
-console.log(tal2[0] + tal2[1] * tal2[2]);
-console.log(tal3 ^ 5);
-
-let tal4 = Math.random()*100;
-console.log(tal4)
-
-console.log(Math.random()*10)
+console.log(text5)
 
