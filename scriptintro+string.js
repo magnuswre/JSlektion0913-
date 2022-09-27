@@ -1,15 +1,14 @@
 // Välja flera varibler samtidigt och byta namn på alla. Välj och tryck F2
 
 
-
-// // let btn1 = document.getElementById("btn1");
-// // btn1.addEventListener("click", function(){
-// // console.log('Hej')
+// let btn1 = document.getElementById("btn1");
+// btn1.addEventListener("click", function(){
+// console.log('Hej')
 // // });
 
-// // SCOPE är vart man kan komma åt koden, 
+// SCOPE är vart man kan komma åt koden, 
 
-// // var är en global variabel, även om den är innanför local scope. accessbar överallt i koden.   
+// var är en global variabel, även om den är innanför local scope. accessbar överallt i koden.   
 // var hej = "hej" // GLOBAL VARIABEL
 
 // {   // HÄR ÄR LOKALT SCOPE, KALLAS BARA SCOPE 
@@ -22,9 +21,7 @@
 // }
 
 
-// // JAVASCRIPT TYPER
-
-
+//---------JAVASCRIPT TYPER-------------------//
 
 // string
 // number
@@ -80,7 +77,7 @@ let person = {
 person.hair = "blond";
 
 
-let person2 = ["magnus", "wretblad", 41, 85] // ...
+//let person2 = ["magnus", "wretblad", 41, 85] // ...
 
 let text = " "; 
 for(let i = 0; i < person.length; i++) {

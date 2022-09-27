@@ -1,0 +1,18 @@
+.calc-container{
+    width: 100px;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border: black 5px solid;
+    background-color: aqua;
+}
+
+
+
+button{
+    margin: 2px; 
+}
